@@ -12,7 +12,7 @@ source <env_name>/scripts/activate
  ```
 2. Clone this repository on your local system using this
 ```bash
-git clone https://gitlab.com/pranay16/healthcare.git
+git clone https://github.com/adittyashrivastava/treetyassignment.git
  ```
 
  3. Open terminal and enter working directory
@@ -31,7 +31,7 @@ pip3 install -Ur requirements.txt
 ```bash
 python manage.py migrate
 ```
-6. After this, we migrate raw data from sp500_companies.csv (located at BASE_DIR/companies/scripts) to out database using the following series of commands -
+6. After this, we migrate raw data from sp500_companies.csv (located at BASE_DIR/companies/scripts) to our database using the following series of commands -
 
 ```bash
 python manage.py shell
