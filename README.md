@@ -46,4 +46,4 @@ python manage.py shell
 python manage.py runserver
 ```
 
-8. Open the git repositpory of frontend colient and proceed by following instructions from there.
+8. Open the git repositpory of [frontend client](https://github.com/adittyashrivastava/treetyassignment_frontend) and proceed by following instructions from there.
