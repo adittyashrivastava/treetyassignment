@@ -224,7 +224,7 @@ class AddCompany(APIView):
             revenue_growth = company_info.get("revenue_growth"),
             city_id = city_id,
             full_time_employees = company_info.get("full_time_employees"),
-            long_business_summary = company_info.get("long_business_summary").capitalize(),
+            long_business_summary = company_info.get("long_business_summary").capitalize() if company_info.get("long_business_summary")!=None else None,
             weight = company_info.get("weight"),
         )
 
